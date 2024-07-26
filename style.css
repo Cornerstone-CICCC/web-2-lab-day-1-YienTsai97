@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+main .input {
+  margin-top: 30px;
+}
+main .title {
+  display: none;
+  position: relative;
+}
+main .title .title_image {
+  position: absolute;
+}
+main .title .title_container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .title h1 {
+  margin: 0;
+}
+main .title h2 {
+  margin: 0;
+}
+main .title img {
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  display: none;
+  text-align: left;
+  align-items: center;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding-left: 10px;
+  width: 300px;
+  height: 25px;
+}
+
+.day_time {
+  background-color: white;
+}
+
+.night_time {
+  background-color: #161627;
+}
+
+/*# sourceMappingURL=style.css.map */
